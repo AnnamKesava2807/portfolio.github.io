@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+    h1{
+        background-color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+    label{
+        color: white;
+    }
+    #seven{
+        color: white;
+            text-decoration: none;
+            border: 7px solid #0b87d3;
+            background-color: #0b87d3;
+            
+    }
+    #sub{
+        padding-left: 10px;
+    }
+</style>
+</head>
+<body bgcolor="#053B50">
+    <center>
+        <h1>Any Message?</h1>
+    <form action="/submit-contact-form" method="post">
+        <label for="name" style="font-size: 20px;">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email" style="font-size: 20px;">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="subject" style="font-size: 20px;" id="sub">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+    
+        <label for="message" style="font-size: 20px;">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br><br>
+    
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="response.html" style="font-size: 20px;" id="seven">Submit</a>&nbsp; &nbsp;
+        <a href="portfolio.html" style="font-size: 20px;" id="seven">Back</a> &nbsp; &nbsp;
+    </form>
+</center>
+<center>
+    
+</center>
+    
+</body>
+</html>
